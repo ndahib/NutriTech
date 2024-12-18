@@ -1,0 +1,106 @@
+
+.bienvenue-image{
+    width: 100%;
+    height: 525.12px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.bienvenue-section {
+    position: relative;
+}
+  
+.bienvenue-content {
+    position: absolute;
+    top: 50%;
+    left: 50%; 
+    transform: translate(-50%, -50%);
+    text-align: center;
+    z-index: 1;
+    display: flex;
+    justify-content: space-between;
+}
+.bienvenue-text-container > .bienvenue-text{
+    width: 845px;
+    height: 58px;
+    font-family: Covered By Your Grace;
+    font-style: normal;
+    line-height: 70px;
+    letter-spacing: 0%;
+    color: #eec044;
+    font-size: 100px;
+    text-align: left;
+} 
+.bienvenue-text-container > .bienvenue-text2{
+    font-size: 85px;
+    font-weight: bolder;
+    color: white;
+    text-align: left;
+    line-height: 100px;
+}
+
+.bienvenue-text-container > button{
+    background-color: #4BAF47;
+    color: white;
+    opacity: 100%;
+    border-radius: 10px;
+    border: none;
+    width: 141px;
+    height: 48px;
+}
+.bienvenue-text-container {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+  
+.bienvenue-circles{
+    display: flex;
+    flex-direction: column;
+    padding-left: 320px;
+}
+
+
+.nurtritech-values {
+    position: absolute;
+    bottom: -71px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: center;
+    width: 1317px;
+    height: 142px;
+    padding: 40px 0;
+    background-color: var(--black);
+    border-radius: 10px;
+    box-shadow: 0 10px 60px #0000001a;
+    z-index: 10;
+    background-color: #fff;
+}
+
+.value{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    color: var(--black);
+    width: 426.98px;
+    padding: 5px 50.16px 0 20.16px;
+    justify-content: center;
+    align-items: center;
+    gap: 19px;
+    flex-shrink: 0;
+}
+
+.value > div{
+    padding-top: 5px;
+}
+.value-span{
+    color: #1f1e17;
+    font-family: Manrope;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 28px;
+}

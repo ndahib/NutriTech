@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    width: 100%;
+    padding-bottom: 12px;
+    border-bottom: 2px solid #0f0f0e; 
+    position: sticky;
+    z-index: 9999;
+}
+.w-28{
+    width: 10rem;
+}
+
+.my-header{
+    padding: 0 148px;
+}
+
+@media (min-width: 768px) {
+    .nutritech-nav {
+        display: none;
+    }
+}

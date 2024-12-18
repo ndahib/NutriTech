@@ -1,0 +1,106 @@
+
+.why-section{
+    margin-top: 124px;
+    width: 775px;
+    display: flex;
+    text-align: center;
+    height: 770px;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.frame {
+    align-items: center;
+    display: inline-flex;
+    flex-direction: column;
+    gap: 10px;
+    height: 210px;
+}
+
+.frame .text-wrapper {
+  color: #266937;
+  font-family: "Inter-Bold", Helvetica;
+  font-size: 14px;
+  font-weight: 700;
+  height: 11px;
+  letter-spacing: 0;
+  position: relative;
+  text-align: center;
+  white-space: nowrap;
+  width: 240px;
+}
+
+.frame .div {
+  color: #003d38;
+  font-family: "Inter-Bold", Helvetica;
+  font-size: 36px;
+  font-weight: 700;
+  letter-spacing: 0;
+  line-height: 48px;
+  text-align: center;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.frame .p {
+  color: #01312c;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  height: 46px;
+  letter-spacing: 0;
+  line-height: 22px;
+  text-align: center;
+  width: 775px;
+}
+
+
+
+.produits {
+    width: 430px;
+    height: 425px;
+    flex-shrink: 0;
+    object-fit: cover;
+    background-image: url("/ellipse.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 433px;
+    padding-top: 33px;
+    height: auto;
+}
+ 
+.produits > img {
+    width: 433px;
+    padding-top: 33px;
+    height: auto;
+}
+
+.component {
+    height: 84px;
+}
+.component .text-wrapper {
+    color: #01312c;
+    font-family: "Inter-Bold", Helvetica;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 0;
+    line-height: 25px;
+    margin-top: -1.00px;
+    width: 220px;
+    text-align: start;
+  }
+  
+.component >p  {
+    color: #01312c;
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 19.5px;
+    width: 219px;
+    text-align: start;
+}

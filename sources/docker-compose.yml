@@ -1,0 +1,32 @@
+
+version : '3.8'
+name    : "NutriTech"
+
+#* ************************************************************************** *#
+#*     * Services :                                                           *#
+#* ************************************************************************** *#
+services:
+# === API_service : ======================================================
+  api_service:
+        image: api-service:nutri
+        container_name: api_service
+        build:
+          context: ./back-end
+          dockerfile: dockerfile
+        restart: always
+        ports:
+          - "5000:5000"
+
+# === API_service : ======================================================   
+  frontend:
+      image: nextjs-frontend:nutri
+      build:
+        context: ./front-end
+        dockerfile: Dockerfile
+      container_name: nextjs_frontend
+      ports:
+        - "3000:3000"
+      depends_on:
+        - api_service
+      volumes:
+        - ./media:/app/media
