@@ -5,8 +5,6 @@ NutriTech is a modern web application designed to simplify agriculture products 
 ---
 
 ## ✨ Features
-
-- **User Authentication**: Secure login and registration using JWT.
 - **Product Management System**: Easily manage agriculture products and associated details.
 - **RESTful API**: Well-structured backend to handle data effectively.
 
